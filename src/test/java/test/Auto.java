@@ -3,7 +3,7 @@ package test;
 public class Auto {
     public String modelo;
     public double precio;
-    public Asiento asiento;
+    public Asiento[] asientos;
     public String marca;
     public Motor motor;
     public int registro; 

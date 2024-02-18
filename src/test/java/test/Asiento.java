@@ -15,4 +15,8 @@ public class Asiento {
         }
         System.out.println("El color proporcionado no es valido. El color de asiento no ha cambiado.");
     }
+
+    int getRegistro() {
+        return registro;
+    }
 }
