@@ -13,11 +13,10 @@ public class Motor {
         this.registro = nuevoRegistro;
     }
 
-    public void asignarTipo(String nuevoTipo) {
-        if ("electricidad".equals(nuevoTipo) || "gasolina".equals(nuevoTipo)) {
-            this.tipo = nuevoTipo;
-        } else {
-            System.out.println("Tipo de motor no valido. No se ha modificado el tipo de motor.");
+    public void asignarTipo(String tipo) {
+        if (tipo.equals("electrico") || tipo.equals("gasolina")) {
+            this.tipo = tipo;
         }
     }
+    
 }
